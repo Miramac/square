@@ -1,0 +1,29 @@
+<h1 class="heading -large">{{ home.title | ExampleFilter }}</h1>
+
+<h3 class="heading -medium">Here is a fancy number served up courtesy of Angular: <span class="number-example">{{ home.number }}</span></h3>
+<md-button class="md-accent">Button 1</md-button>
+
+<div style="width:400px; height:400px;">
+    <md-grid-list md-cols="3" md-row="2" md-gutter="2px"  md-row-height-gt-md="1:1" md-row-height="4:3">
+        <md-grid-tile>
+            <md-button class="md-fab">A1</md-button> 
+        </md-grid-tile>
+        <md-grid-tile>
+           <md-button class="md-fab">A2</md-button> 
+        </md-grid-tile>
+        <md-grid-tile>
+            A3
+        </md-grid-tile>
+        
+        <md-grid-tile>
+            B1
+        </md-grid-tile>
+        <md-grid-tile>
+            B2
+        </md-grid-tile>
+        <md-grid-tile>
+            B3
+        </md-grid-tile>
+       
+    </md-grid-list>
+</div>

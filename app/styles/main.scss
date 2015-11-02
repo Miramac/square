@@ -1,0 +1,10 @@
+@import '../../node_modules/angular-material/angular-material.scss';
+@import 'vars';
+@import 'typography';
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: $font-color--dark;
+  background-color: $background--light;
+  padding: $half-space;
+}
