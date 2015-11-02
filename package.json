@@ -75,6 +75,7 @@
     "watchify": "^3.4.0"
   },
   "scripts": {
+    "start": "gulp dev",
     "pretest": "npm install",
     "test": "karma start test/karma.conf.js",
     "preprotractor": "npm install && webdriver-manager update",

@@ -3,10 +3,10 @@
 <h3 class="heading -medium">Here is a fancy number served up courtesy of Angular: <span class="number-example">{{ home.number }}</span></h3>
 <md-button class="md-accent">Button 1</md-button>
 
-<div style="width:400px; height:400px;">
-    <md-grid-list md-cols="3" md-row="{{home.grid.length}}" md-gutter="2px"  md-row-height-gt-md="1:1" md-row-height="4:3">
+<div style="width:500px; height:500px;">
+    <md-grid-list md-cols="8" md-row="{{home.grid.length}}" md-gutter="0px"  md-row-height-gt-md="1:1" md-row-height="4:3">
         <md-grid-tile ng-repeat="cell in home.grid">
-            <md-button class="md-fab md-primary">{{cell}}</md-button> 
+            <md-button class="md-fab md-primary md-mini">{{cell}}</md-button> 
         </md-grid-tile>
     </md-grid-list>
 </div>
